@@ -13,5 +13,5 @@ webpack({
         filename: './lib/uv.bundle.js',
     }
 }, (err, i) => 
-    console.log(!err ? 'Ultraviolet bundled!' : e)
+    console.log(!err ? 'Ultraviolet bundled!' : err)
 );
